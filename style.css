@@ -1,0 +1,65 @@
+
+
+#shopp{
+
+    margin-left: 300px;
+}
+
+#logo{
+
+    margin-top:50px;
+    margin-left: 300px;
+}
+.nav-tabs{
+
+    font-family: cursive;
+}
+
+#about2{
+    display: flex;
+}
+
+#text{
+
+    margin-top: 130px;
+    margin-left: 50px;
+    font-family: cursive;
+    
+}
+#serv{
+
+    margin-left: 100px;
+    font-family: cursive;
+}
+
+.card-group{
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.card{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.card-text{
+    font-family: cursive;
+}
+
+.card-title{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+
+#contactus{
+
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 30px;
+}
+
+.fabb{
+
+    margin-left: 750px;
+}
+

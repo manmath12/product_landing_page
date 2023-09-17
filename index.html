@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/scrollreveal">
+
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <link rel="stylesheet" href="style.css">
+    <!--font awesome-->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+  
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>COFFEE</title>
+</head>
+<body>
+
+    <section id="firstpage">
+
+    <ul class="nav nav-tabs" style="background-color: #513B1C;" id="myTab" role="tablist">
+        <li class="nav-item">
+          <a class="nav-link" id="home-tab" style="color: white;" data-toggle="tab" href="#firstpage" role="tab" aria-controls="home" aria-selected="true">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " style="color: white;"  id="profile-tab" data-toggle="tab" href="#about" role="tab" aria-controls="profile" aria-selected="false">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="contact-tab" style="color: white;" data-toggle="tab" href="#Services" role="tab" aria-controls="contact" aria-selected="true">Services</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link " id="contact-tab" style="color: white;" data-toggle="tab" href="#contactus" role="tab" aria-controls="contact" aria-selected="true">Contact us</a>
+          </li>
+      </ul>
+      <div class="tab-content" id="myTabContent">
+        <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab"></div>
+        <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab"></div>
+        <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab"></div>
+      </div>
+      <div class="images">
+      <img width="300px" height="200px"  id="logo" src="./combined.jpg">
+      <img width="600px" height="650px" id="shopp"  src="./shop.jpg">
+      </div>
+      
+    </section>
+
+
+    <section id="about">
+     <div id="about2">
+      <div>
+        <img width="600px" height="500px" src="./coffeelogo1.jpg">
+      </div>
+
+      <div id="text">
+        <h2>Welcome to Coffee Love - Where Every Sip is a Hug in a Mug.....</h2>
+        <h1 style="color: #513B1C;">
+          _________
+        </h1>
+        <br>
+        
+        <h4>Discover the heart and soul of coffee right here in Akurdi, Pune, at Coffee Love. Our cozy haven is dedicated to crafting exquisite coffee experiences that will warm your heart and invigorate your senses.</h4>
+
+      </div>
+    </div>
+    </section>
+
+    <section id="Services">
+
+      <h1 id="serv">Our services</h1>
+      <h1 id="serv" style="color: #513B1C;">
+        _____
+      </h1>
+
+      <div class="card-group">
+        <div class="card">
+          <img height="350px" class="card-img-top" src="./newtwo.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">COFFEE WITH HEART</h5>
+            <p class="card-text">"Coffee with Heart" is a soul-soothing brew, where every sip tells a story of passion and dedication.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        <div class="card">
+          <img height="350px" class="card-img-top" src="./newthree.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">NAMED COFFEE</h5>
+            <p class="card-text">Named Coffee: This remarkable brew introduces itself with a tantalizing aroma of freshly baked cinnamon rolls. </p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        <div class="card">
+          <img  height="350px" class="card-img-top" src="./newone.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">COLD COFFEE</h5>
+            <p class="card-text">"Cold Coffee: A refreshing blend of chilled espresso, cream, and a touch of sweetness, served over ice for the perfect pick-me-up on a hot day."</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <section id="contactus">
+
+      <div class="card mb-3">
+        <img class="card-img-top" src="./back3.png" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Want to Find Us</h5>
+          <p class="card-text">Click on following instagram icon and we are waiting...</p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+
+    </section>
+     
+    <footer style="background-color: #513B1C;">
+      <a class="fabb" href="https://instagram.com/manmath_ashture_?igshid=NzZlODBkYWE4Ng==">
+        <i class="fab fa-instagram  " style="color: #ffff;" ></i>
+        </a>
+
+    </footer>
+
+    
+    <script>
+      
+        ScrollReveal({
+        reset: true,
+        distance:'60px',
+        duration:2500,
+        delay:400
+      });
+      ScrollReveal().reveal('#firstpage', { delay: 10,origin:'left' });
+      ScrollReveal().reveal('#about', { delay: 10,origin:'right' });
+      ScrollReveal().reveal('#Services', { delay: 10,origin:'bottom' });
+      ScrollReveal().reveal('#contactus', { delay: 10,origin:'bottom' });
+      </script>
+</body>
+</html>
